@@ -1,0 +1,11 @@
+{application,dist_dbase,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{dist_dbase_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[db_host_spec,dist_dbase,dist_dbase_app,
+                        dist_dbase_server,dist_dbase_sup,lib_dbase]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
